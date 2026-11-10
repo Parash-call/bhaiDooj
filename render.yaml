@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: a-magical-world-for-shikha
+    name: a-magical-world-for-laxmi
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist

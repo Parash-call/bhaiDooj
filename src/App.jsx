@@ -127,11 +127,11 @@ export default function App() {
           </div>
           <div className="intro-photo-story">
             <div className="intro-feature-photo">
-              <img src={publicAsset('/images/memories/bhai-tika-photo-2.jpeg')} alt="Shikha celebrating Bhai Tika with her brother" />
+              <img src={publicAsset('/images/memories/laxmi.jpg.jpeg')} alt="A childhood photo of Laxmi with her brother" />
               <span className="intro-photo-caption">{t('sisterHeart')}</span>
             </div>
             <div className="intro-side-photo">
-              <img src={publicAsset('/images/memories/shikha-photo-1.jpeg')} alt="A favorite portrait of Shikha" />
+              <img src={publicAsset('/images/memories/laxmi1.jpg.jpeg')} alt="A favorite portrait of Laxmi" />
               <span>{t('favoritePerson')}</span>
             </div>
             <span className="intro-photo-sparkle sparkle-one">✦</span>

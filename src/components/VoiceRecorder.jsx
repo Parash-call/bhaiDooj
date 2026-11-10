@@ -60,7 +60,7 @@ export default function VoiceRecorder({ t }) {
     if (!audioUrl) return;
     const anchor = document.createElement('a');
     const extension = audioType.includes('mp4') || audioType.includes('aac') ? 'm4a' : 'webm';
-    anchor.href = audioUrl; anchor.download = `a-message-for-shikha.${extension}`; anchor.click();
+    anchor.href = audioUrl; anchor.download = `a-message-for-laxmi.${extension}`; anchor.click();
   };
 
   return (

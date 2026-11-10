@@ -17,7 +17,7 @@ export default function SecretLetter({ t }) {
     <div className="letter-card">
       <div className="letter-stamp" aria-hidden="true">♡</div>
       <span className="letter-topline">{t('letterNote')}</span>
-      <h3>{t('dearShikha')} <span>❤️</span></h3>
+      <h3>{t('dearLaxmi')} <span>❤️</span></h3>
       <p className="letter-body" aria-live="polite">{letter.slice(0, shown)}{shown < letter.length && <span className="type-cursor">|</span>}</p>
       {shown >= letter.length && <p className="letter-signoff">{t('signoff')} <span>{t('signoffBrother')}</span></p>}
       <button type="button" className="button button-outline" onClick={replay}><RotateCcw size={16} /> {t('letterReplay')}</button>

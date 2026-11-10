@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Gift, Sparkles } from 'lucide-react';
 
 const gifts = [
-  { title: 'A little reminder', icon: '🌟', message: 'You make every room brighter just by being your wonderfully real self.' },
-  { title: 'A forever memory', icon: '🧸', message: 'We met five years ago, and I’m so glad our friendship grew into family.' },
-  { title: 'From my heart', icon: '💌', message: 'Whatever changes, wherever life takes us, you will always have me in your corner.' },
+  { title: 'A little reminder', icon: '🌟' },
+  { title: 'A forever memory', icon: '🧸' },
+  { title: 'From my heart', icon: '💌' },
 ];
 
 export default function GiftBox({ onCelebrate, t }) {

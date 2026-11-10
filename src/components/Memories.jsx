@@ -12,7 +12,7 @@ export default function Memories({ t }) {
   const [storageMessage, setStorageMessage] = useState('');
   const picker = useRef(null);
   const uploadedUrls = useRef([]);
-  const categories = ['All moments', 'Portraits', 'Bhai Tika'];
+  const categories = ['All moments', 'Portraits'];
   const visibleItems = category === 'All moments' ? items : items.filter((item) => item.category === category);
 
   useEffect(() => {
@@ -107,7 +107,7 @@ export default function Memories({ t }) {
       <p className="memory-upload-note">{t('temporaryPhotos')}</p>
       {storageMessage && <p className="storage-message" role="status">{storageMessage}</p>}
       <div className="memory-filters" role="group" aria-label="Filter photos by collection">
-        {categories.map((name) => <button key={name} type="button" className={`memory-filter ${category === name ? 'is-selected' : ''}`} aria-pressed={category === name} onClick={() => { setCategory(name); setActive(0); }}>{t(name === 'All moments' ? 'allMoments' : name === 'Portraits' ? 'portraits' : 'bhaiTika')}<span>{name === 'All moments' ? items.length : items.filter((item) => item.category === name).length}</span></button>)}
+        {categories.map((name) => <button key={name} type="button" className={`memory-filter ${category === name ? 'is-selected' : ''}`} aria-pressed={category === name} onClick={() => { setCategory(name); setActive(0); }}>{t(name === 'All moments' ? 'allMoments' : 'portraits')}<span>{name === 'All moments' ? items.length : items.filter((item) => item.category === name).length}</span></button>)}
       </div>
       <div className="polaroid-grid">
         {visibleItems.map((memory, index) => (
@@ -124,7 +124,7 @@ export default function Memories({ t }) {
       </div>
       <div className="timeline">
         <span className="timeline-line" />
-        {['Five years ago', 'A friendship became family', 'Sisters by heart'].map((label, index) => (
+        {['Growing up together', 'School days and shared memories', 'Sisters by heart'].map((label, index) => (
           <div className="timeline-stop" key={label}><span className="timeline-dot">{['✿', '♡', '✦'][index]}</span><span>{label}</span></div>
         ))}
       </div>

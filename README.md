@@ -1,4 +1,4 @@
-# A Magical World for Shikha ❤️
+# A Magical World for Laxmi ❤️
 
 A responsive, browser-only Bhai Dooj greeting made with React and Vite. No backend, paid API, or database is required.
 
@@ -20,7 +20,7 @@ npm run preview
 
 ## Personalize it
 
-- The six supplied photos are displayed in the gallery, with Bhai Tika photos featured on the opening banner and downloadable greeting card. Use the gallery filters to switch between portraits and Bhai Tika moments. Add more permanent photos to `public/images/memories/` and add their paths, titles, and captions in `src/data/memories.js`. Use **Add our photos** for temporary previews; browser-selected photos disappear when the page is refreshed.
+- Laxmi's photos are displayed in the gallery, opening banner, and downloadable greeting card. Add more permanent photos to `public/images/memories/` and add their paths, titles, and captions in `src/data/memories.js`. Use **Add our photos** for temporary previews; browser-selected photos disappear when the page is refreshed.
 - Edit the eight questions and answer choices in `src/data/quizQuestions.js`.
 - Set the date you celebrate using the date picker in the countdown; the chosen date is saved in this browser.
 - Record a voice message on the Voice Message section. Microphone permission is only requested after pressing **Record a message**; use **Save audio** to download a copy.
@@ -45,7 +45,7 @@ npm run preview
 1. Push the project to a GitHub repository.
 2. In Vercel, choose **Add New → Project** and import the repository.
 3. Keep the detected Vite settings: build command `npm run build`, output directory `dist`.
-4. Select **Deploy**. Vercel provides a public `*.vercel.app` URL; share that URL with Shikha.
+4. Select **Deploy**. Vercel provides a public `*.vercel.app` URL; share that URL with Laxmi.
 
 ### Netlify
 

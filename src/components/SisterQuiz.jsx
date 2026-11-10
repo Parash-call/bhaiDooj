@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Heart, RotateCcw } from 'lucide-react';
 import { quizQuestions } from '../data/quizQuestions.js';
 
-const STORAGE_KEY = 'shikha-bhaidooj-quiz-v2';
+const STORAGE_KEY = 'laxmi-bhaidooj-quiz-v3';
 export default function SisterQuiz({ t }) {
   const [answers, setAnswers] = useState(() => {
     try {

@@ -10,9 +10,9 @@ export default function Navbar({ animationsEnabled, onToggleAnimations, musicOn,
   ];
   return (
     <header className="site-nav">
-      <a className="brand" href="#home" onClick={() => setOpen(false)} aria-label="A Magical World for Shikha, home">
+      <a className="brand" href="#home" onClick={() => setOpen(false)} aria-label="A Magical World for Laxmi, home">
         <span className="brand-mark"><Heart size={17} fill="currentColor" /></span>
-        <span>For Shikha <span className="brand-heart">♥</span></span>
+        <span>For Laxmi <span className="brand-heart">♥</span></span>
       </a>
       <button className="menu-toggle icon-button" type="button" aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} onClick={() => setOpen(!open)}>
         {open ? <X size={21} /> : <Menu size={21} />}

@@ -20,7 +20,7 @@ export default function WelcomeScreen({ onEnter, onToggleMusic, musicOn, languag
       </label>
       <div className="welcome-copy">
         <div className="welcome-eyebrow"><Sparkles size={15} /> {t('welcomeEyebrow')}</div>
-        <h1>Hey Shikha! <span className="hero-heart">❤️</span></h1>
+        <h1>Hey Laxmi! <span className="hero-heart">❤️</span></h1>
         <p>{t('welcomeSubtitle')}</p>
         <p className="welcome-bond">{t('welcomeBond')}</p>
         <button type="button" className="button button-primary welcome-button" onClick={open}>
